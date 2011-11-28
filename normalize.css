@@ -429,3 +429,15 @@ table {
     border-collapse: collapse;
     border-spacing: 0;
 }
+
+/*
+	Reset fieldset and ul
+	I'd rather specify this myself due to the use of our .content defaults
+*/
+
+ul, ol, fieldset {
+	margin: 0;
+	padding: 0;
+	border: none;
+	list-style: none;
+}
